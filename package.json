@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "laboratorio 1",
   "main": "index.js",
+  "type":"module",
   "scripts": {
     "test": "node index.js"
   },
