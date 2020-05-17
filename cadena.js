@@ -4,6 +4,6 @@ function cadenalarga(str){
     return words.filter(word => word.length === maxSize );
     return maxSize;
 }
-console.log(cadenalarga("aba , aa , ad , vcd , aba"))
-console.log(cadenalarga("enyky , benyky , yely , varennyky "))
+//console.log(cadenalarga("aba , aa , ad , vcd , aba"))
+//console.log(cadenalarga("enyky , benyky , yely , varennyky "))
 export {cadenalarga}
