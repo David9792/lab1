@@ -9,4 +9,7 @@ console.log(invertir("foo(bar)baz"))
 console.log(invertir("foo(bar)baz(blim)"))
 console.log(invertir("foo(bar(baz))blim"))
 
+import {palindromo} from "./palindromo.js";
 
+console.log(palindromo("anitalavalatina"))// es palindromo
+console.log(palindromo("hola mundo"))// no es palindromo
