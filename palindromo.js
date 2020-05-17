@@ -1,7 +1,6 @@
 function palindromo(cadena)
 {
     t = cadena.length;
-    cadena=cadena.replace(/ /g, "");
     if(t == 0){
         return "no es palindromo";
     }
@@ -16,5 +15,5 @@ function palindromo(cadena)
 		
 }
 
-console.log(palindromo("anitalavalatina"))
-console.log(palindromo("hola mundo"))
+console.log(palindromo("anitalavalatina"))// es palindromo
+console.log(palindromo("hola mundo"))// no es palindromo
