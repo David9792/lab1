@@ -1,19 +1,22 @@
-function palindromo(cadena)
+function palindromo(string)
 {
-    t = cadena.length;
-    if(t == 0){
-        return "no es palindromo";
-    }
-    for(i=0;i<t/2;i++){
-        if(cadena[i] != cadena[t-1-i]){
-            return "no es palindromo";
-        }
-    }
-    return "es palindromo";
- 
-	
-		
-}
+    console.log(string);
+    let convertircadena = string.split("");
+    console.log(convertircadena);
 
-console.log(palindromo("anitalavalatina"))// es palindromo
-console.log(palindromo("hola mundo"))// no es palindromo
+    let revertirarreglo = convertircadena.reverse("");
+    console.log(revertirarreglo);
+
+    let unirarreglo = revertirarreglo.join("");
+    console.log(unirarreglo);
+
+    if(string === unirarreglo){
+
+    console.log("la palabra es palindroma")
+    }
+    else{
+        console.log("la palabra no es palindromo")
+    }	
+}
+export {palindromo}
+palindromo("hola mundo")
