@@ -10,5 +10,5 @@ console.log(invertir("foo(bar)baz(blim)"))
 console.log(invertir("foo(bar(baz))blim"))
 
 import{palindromo} from "./palindromo.js";
-palindromo("hola mundo")
-palindromo("ama")
+palindromo("Hola mundo")
+palindromo("Ama")

@@ -12,11 +12,11 @@ function palindromo(string)
 
     if(string === unirarreglo){
 
-    console.log("la palabra es palindroma")
+    console.log("Es palindroma")
     }
     else{
-        console.log("la palabra no es palindromo")
+        console.log("No es palindromo")
     }	
 }
 export {palindromo}
-palindromo("hola mundo")
+palindromo("Hola mundo")

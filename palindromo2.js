@@ -9,7 +9,7 @@ function toPalindrome(string) {
     var map = {};
     var even = '';
     var odd = '';
-    var isPalindrome = "es palindromo";
+    var isPalindrome = "Es palindromo";
   
     Array
       .from(string)
@@ -25,15 +25,15 @@ function toPalindrome(string) {
         } else if ( map[key] % 2 !== 0 && odd.length === 0) {
           odd = key.repeat(map[key]);
         } else{
-          isPalindrome = "no es palindromo";
-          return "es palindromo";
+          isPalindrome = "No es palindromo";
+          return "Es palindromo";
         }
       });
     
-    return isPalindrome ? even + odd + Array.from(even).reverse().join('') : "no es palindromo";
+    return isPalindrome ? even + odd + Array.from(even).reverse().join('') : "No es palindromo";
   }
   
-  //console.log(toPalindrome('WWS'));
+
   ejemplos.forEach(function (word) {
     console.log(`${word.source} - ${word.result}`, assert(toPalindrome(word.source), word.result));
   });

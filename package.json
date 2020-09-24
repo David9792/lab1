@@ -1,5 +1,5 @@
 {
-  "name": "pregunta1",
+  "name": "preg1",
   "version": "1.0.0",
   "description": "laboratorio 1",
   "main": "index.js",
@@ -9,14 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jesusfajardo/laboratorio1.git"
+    "url": "git+https://github.com/David9792/lab1.git"
   },
-  "author": "jesus fajardo sullca",
+  "author": "Ruben David Mamani Fernandez",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/jesusfajardo/laboratorio1/issues"
+    "url": "https://github.com/David9792/lab1/issues"
   },
-  "homepage": "https://github.com/jesusfajardo/laboratorio1#readme",
+  "homepage": "https://github.com/David9792/lab1#readme",
   "dependencies": {
     "mustache": "^4.0.1"
   }
